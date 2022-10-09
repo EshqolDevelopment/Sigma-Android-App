@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/A"
+            android:title="1"
+            app:showAsAction="always" tools:ignore="HardcodedText"/>
+    <item
+            android:id="@+id/B"
+            android:title="2"
+            app:showAsAction="always" tools:ignore="HardcodedText"/>
+
+    <item
+            android:id="@+id/C"
+            android:title="3"
+            app:showAsAction="always" tools:ignore="HardcodedText"/>
+
+    <item
+            android:id="@+id/D"
+            android:title="4"
+            app:showAsAction="always" tools:ignore="HardcodedText"/>
+
+    <item
+            android:id="@+id/E"
+            android:title="5"
+            app:showAsAction="always" tools:ignore="HardcodedText"/>
+
+
+
+</menu>

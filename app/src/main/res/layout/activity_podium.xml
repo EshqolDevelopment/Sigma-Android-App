@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:background="@color/AntiqueWhite"
+                                                   android:layout_height="match_parent">
+
+
+    <ImageView
+            android:id="@+id/img4"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="468dp" android:layout_marginEnd="300dp"/>
+
+    <ImageView
+            android:id="@+id/img5"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="468dp" android:layout_marginEnd="180dp"/>
+
+    <TextView
+            android:text="+50 coins"
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/coin_win" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.946" app:layout_constraintVertical_bias="0.022"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="home screen"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_height="wrap_content" android:id="@+id/home111"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.916"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/finalResult"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/home111"
+            app:layout_constraintHorizontal_bias="0.491" app:layout_constraintVertical_bias="0.155"/>
+
+    <ImageView
+            android:layout_width="379dp"
+            android:layout_height="338dp" app:srcCompat="@drawable/podium" android:id="@+id/imageView18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="196dp"/>
+    <TextView
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.452"
+            app:layout_constraintTop_toBottomOf="@+id/img1" android:layout_marginTop="124dp"/>
+    <TextView
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username3"
+            app:layout_constraintStart_toStartOf="@+id/img3"
+            app:layout_constraintEnd_toEndOf="@+id/img3"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintTop_toBottomOf="@+id/img3" android:layout_marginTop="68dp"/>
+    <TextView
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username2"
+            app:layout_constraintStart_toStartOf="@+id/img2"
+            app:layout_constraintEnd_toEndOf="@+id/img2" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/img2" android:layout_marginTop="88dp"/>
+    <TextView
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username4"
+            app:layout_constraintStart_toStartOf="@+id/img4"
+            app:layout_constraintEnd_toEndOf="@+id/img4" app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintTop_toBottomOf="@+id/img4"/>
+    <TextView
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username5"
+            app:layout_constraintStart_toStartOf="@+id/img5"
+            app:layout_constraintEnd_toEndOf="@+id/img5" app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintTop_toBottomOf="@+id/img5"
+    />
+    <ImageView
+            android:id="@+id/img3"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="292dp" android:layout_marginEnd="56dp"/>
+    <ImageView
+            android:id="@+id/img1"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="236dp" android:layout_marginEnd="168dp"/>
+    <ImageView
+            android:id="@+id/img2"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="272dp" android:layout_marginEnd="292dp"/>
+    <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/score2"
+            app:layout_constraintStart_toStartOf="@+id/img2" app:layout_constraintEnd_toEndOf="@+id/img2"
+            app:layout_constraintBottom_toTopOf="@+id/img2" android:layout_marginBottom="12dp"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@+id/img1"
+            app:layout_constraintEnd_toEndOf="@+id/img1" android:id="@+id/score1"
+            app:layout_constraintBottom_toTopOf="@+id/img1" android:layout_marginBottom="8dp"/>
+    <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/score3"
+            app:layout_constraintEnd_toEndOf="@+id/img3" app:layout_constraintStart_toStartOf="@+id/img3"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintBottom_toTopOf="@+id/img3"
+            android:layout_marginBottom="10dp" android:layout_marginEnd="-10dp"/>
+    <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/score4"
+            app:layout_constraintStart_toStartOf="@+id/username4"
+            app:layout_constraintEnd_toEndOf="@+id/username4" app:layout_constraintTop_toBottomOf="@+id/username4"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="12dp"/>
+
+    <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/score5"
+            app:layout_constraintStart_toStartOf="@+id/username5"
+            app:layout_constraintEnd_toEndOf="@+id/username5" app:layout_constraintTop_toBottomOf="@+id/username5"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="12dp"/>
+    <pl.droidsonroids.gif.GifImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:background="#0000ffff"
+            android:src="@drawable/winning"
+            app:layout_constraintTop_toTopOf="@+id/img1"
+            app:layout_constraintBottom_toBottomOf="@+id/img1"
+            app:layout_constraintVertical_bias="0.133" android:id="@+id/gifImageView6"
+            app:layout_constraintStart_toEndOf="@+id/img1" android:layout_marginStart="-20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

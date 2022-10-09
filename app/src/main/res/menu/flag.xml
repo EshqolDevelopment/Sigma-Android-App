@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+            android:id="@+id/python"
+            android:icon="@drawable/python_f"
+            android:title="Python"
+            app:showAsAction="always"/>
+
+
+    <item
+            android:id="@+id/javascript"
+            android:icon="@drawable/js"
+            android:title="Javascript"
+            app:showAsAction="always"/>
+
+    <item
+            android:id="@+id/report"
+            android:icon="@drawable/fat_flag"
+            android:title="Suggest a draw"
+            app:showAsAction="never"/>
+
+
+
+</menu>

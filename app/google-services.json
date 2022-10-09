@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "794637356909",
+    "firebase_url": "https://omega-ad1ba-default-rtdb.firebaseio.com/",
+    "project_id": "omega-ad1ba",
+    "storage_bucket": "omega-ad1ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794637356909:android:d158a4988e6e8242365464",
+        "android_client_info": {
+          "package_name": "com.eshqol.sigma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794637356909-eirm0bahjum0as2o0mrpjqipchiqp7fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtPTOp9hF3BCA64uMGBrvnaAdIQI6Of-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794637356909-eirm0bahjum0as2o0mrpjqipchiqp7fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

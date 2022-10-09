@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="250dp"
+    android:maxHeight="250dp"
+
+    android:background= "@drawable/pop_up_background_new">
+
+
+    <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="36dp"
+            android:text="Choose a different shortcut"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/x_ico"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="7dp"/>
+
+    <ImageView
+            android:id="@+id/tab"
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="113dp"
+            app:srcCompat="@drawable/tab123"/>
+
+    <ImageView
+            android:layout_width="58dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/brackets"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/squareBrackets" android:layout_marginStart="75dp" android:layout_marginBottom="112dp"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/plus123"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/plus" android:layout_marginStart="145dp" android:layout_marginBottom="113dp"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/minus"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/minus" android:layout_marginStart="211dp" android:layout_marginBottom="112dp"/>
+
+    <ImageView
+            android:id="@+id/equal"
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="271dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="109dp"
+            app:srcCompat="@drawable/equal123"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/para_icon"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/para" android:layout_marginStart="12dp" android:layout_marginBottom="38dp"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/loop_ico"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/forLoop" android:layout_marginStart="79dp" android:layout_marginBottom="38dp"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/merchaot_ico"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/merchaot" android:layout_marginStart="145dp" android:layout_marginBottom="38dp"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/semi_colon_ico"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/semiColon" android:layout_marginStart="270dp" android:layout_marginBottom="38dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="14dp"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/return_ico"
+            android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:id="@+id/returnIco" android:layout_marginStart="209dp" android:layout_marginBottom="38dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/python"
+            android:icon="@drawable/python_f"
+            android:title="Python"
+            app:showAsAction="always"/>
+
+
+    <item
+            android:id="@+id/javascript"
+            android:icon="@drawable/js"
+            android:title="Javascript"
+            app:showAsAction="always"/>
+
+
+    <item
+            android:id="@+id/solution"
+            android:icon="@drawable/ic_baseline_lightbulb_24"
+            android:title="See the solution"
+            app:showAsAction=""/>
+
+    <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Report a problem"
+            app:showAsAction=""/>
+
+
+
+
+
+
+</menu>

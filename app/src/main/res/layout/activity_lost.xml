@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:background="@drawable/lose"
+                                                   android:layout_height="match_parent">
+    <TextView
+            android:text="-50 coins"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" android:id="@+id/coin_lose" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView8" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.947" app:layout_constraintVertical_bias="0.0"/>
+    <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:background="#0000ffff"
+            android:src="@drawable/winning"
+            app:layout_constraintTop_toTopOf="@+id/profile_enemy"
+            app:layout_constraintBottom_toBottomOf="@+id/profile_enemy"
+            app:layout_constraintVertical_bias="0.703" android:id="@+id/gifImageView"
+            app:layout_constraintEnd_toStartOf="@+id/profile_enemy" android:layout_marginEnd="-34dp"/>
+    <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp" app:srcCompat="@drawable/crown" android:id="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/profile_enemy"
+            app:layout_constraintEnd_toEndOf="@+id/profile_enemy"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintBottom_toTopOf="@+id/profile_enemy" android:layout_marginBottom="-35dp"/>
+    <ImageView
+            android:id="@+id/profile_you"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="368dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="23dp"/>
+    <Button
+            android:onClick="goHome"
+            android:text="home screen"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_height="wrap_content" android:id="@+id/button7"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.872"/>
+
+
+    <ImageView
+            android:id="@+id/profile_enemy"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000" tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="368dp" android:layout_marginEnd="23dp"/>
+    <TextView
+            android:text="You lost the game!"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/textView8"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/button7"
+            app:layout_constraintHorizontal_bias="0.461" app:layout_constraintVertical_bias="0.2"/>
+    <TextView
+            android:text="Result here (2-1)"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/result"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.303" app:layout_constraintHorizontal_bias="0.468"/>
+    <TextView
+
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username1"
+            app:layout_constraintStart_toStartOf="@+id/profile_you"
+            app:layout_constraintTop_toBottomOf="@+id/profile_you"
+            android:layout_marginTop="8dp" app:layout_constraintEnd_toEndOf="@+id/profile_you"/>
+    <TextView
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/username2"
+            app:layout_constraintTop_toBottomOf="@+id/profile_enemy"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/profile_enemy"
+            app:layout_constraintEnd_toEndOf="@+id/profile_enemy" app:layout_constraintHorizontal_bias="0.495"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

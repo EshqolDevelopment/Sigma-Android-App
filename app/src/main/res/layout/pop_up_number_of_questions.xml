@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:maxHeight="250dp"
+        android:background= "@drawable/pop_up_background_new">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="Choose the number of question in the game"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="79dp" android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true" android:layout_marginStart="15dp"/>
+    <TextView
+            android:id="@+id/platform1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Number of questions"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp" android:layout_alignParentEnd="true" android:layout_marginEnd="48dp"
+            android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/x_ico"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="7dp"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_1" android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp" android:layout_alignParentBottom="true" android:layout_marginBottom="50dp"
+            android:id="@+id/imageView7"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_2" android:layout_alignParentStart="true"
+            android:layout_marginStart="83dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imageView31" android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_3" android:layout_alignParentStart="true"
+            android:layout_marginStart="147dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imageView32" android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_4" android:layout_alignParentStart="true"
+            android:layout_marginStart="211dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imageView33" android:layout_centerHorizontal="true"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_5" android:layout_alignParentStart="true"
+            android:layout_marginStart="273dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imageView34" android:layout_centerHorizontal="true" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"/>
+
+</RelativeLayout>

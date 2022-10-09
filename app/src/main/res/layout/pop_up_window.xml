@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="340dp"
+    android:layout_height="250dp"
+    android:maxHeight="250dp"
+
+    android:background= "@drawable/pop_up_background_new">
+
+
+    <Button
+        android:id="@+id/mediumS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="39dp"
+        android:layout_toStartOf="@+id/hardS"
+        android:layout_toEndOf="@+id/easyS"
+        android:backgroundTint="@color/Tiger_Orange"
+        android:text="Medium"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="Choose a difficulty mode"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Quick Play"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/easyS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="@color/Green"
+        android:text="Easy"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    <Button
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:backgroundTint="@color/Cherry_Red"
+            android:text="Hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="39dp" android:id="@+id/hardS"
+            android:layout_marginEnd="10dp"/>
+
+    <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/x_ico"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="7dp" />
+    <TextView
+            android:text="50 coins"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp" android:layout_alignParentBottom="true" android:layout_marginBottom="18dp"
+            android:id="@+id/textView2"/>
+    <TextView
+            android:text="300 coins"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="18dp" android:id="@+id/textView9"/>
+    <TextView
+            android:text="1000 coins"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_marginEnd="21dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="18dp" android:id="@+id/textView10"/>
+
+</RelativeLayout>
