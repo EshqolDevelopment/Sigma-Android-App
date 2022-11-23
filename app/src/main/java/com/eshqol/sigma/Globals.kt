@@ -34,6 +34,15 @@ fun String.snack(activity: Activity, duration: Int = Snackbar.LENGTH_SHORT, top:
     }
 }
 
+context (Activity) 
+fun String.snack(duration: Int = Snackbar.LENGTH_SHORT, top: Boolean = false){
+    this.snack(this@Activity, duration, top)
+}
+
+context (Activity)
+fun String.show() {
+    this.show(this@Activity)
+}
 
 fun ImageView.setProfileImage(proId: String) {
     when (proId){

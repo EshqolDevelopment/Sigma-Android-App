@@ -438,7 +438,7 @@ class FreeCoding : AppCompatActivity() {
         Helpers().closeKeyboard(this)
 
         // show a snackbar to notify the user that the code is saved
-        "Code saved successfully".snack(this)
+        "Code saved successfully".snack()
     }
 
     private fun loadCode() {
