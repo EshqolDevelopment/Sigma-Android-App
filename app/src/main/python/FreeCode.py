@@ -2,9 +2,6 @@ import io
 from contextlib import redirect_stdout
 
 def run(code):
-    if "os" in code or "__import__" in code:
-        return "access denied"
-
     d = {}
     try:
         f = io.StringIO()
